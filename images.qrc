@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>geralt.png</file>
+        <file>lily.jpg</file>
+        <file>hank.jpg</file>
+        <file>connor.jpg</file>
+        <file>default.png</file>
+        <file>default.jpg</file>
+    </qresource>
+</RCC>
