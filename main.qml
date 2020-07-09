@@ -149,7 +149,7 @@ ApplicationWindow {
                             border.width: 10
                             border.color: "grey"
                             clip: true
-                            opacity: 0.5
+                            opacity: 0.9
 
 
                             Image{
