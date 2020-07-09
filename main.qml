@@ -20,6 +20,7 @@ ApplicationWindow {
 
         ListView{
 
+            id: listView
             width: parent.width;
             height: parent.height;
 
@@ -61,7 +62,7 @@ ApplicationWindow {
                             height: parent.height
                             radius: 15
                             smooth: false
-                            visible: false//
+                            visible: false
                         }
 
                         OpacityMask {
@@ -105,5 +106,8 @@ ApplicationWindow {
             focus: true
         }
 
+
 }
+
+
 

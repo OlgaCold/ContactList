@@ -79,5 +79,5 @@ void ContactModel::remove(int row)
 
 void ContactModel::call(int row)
 {
-
+    //
 }
