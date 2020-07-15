@@ -141,15 +141,15 @@ ApplicationWindow {
 
                         Rectangle{
                             id: imageWrapper
-                            width: 45
-                            height: 45
+                            width: 35
+                            height: 35
+                            anchors.topMargin: 5
                             anchors.horizontalCenter: parent.horizontalCenter
-                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.top: parent.top
                             radius: 5
-                            border.width: 10
                             border.color: "grey"
                             clip: true
-                            opacity: 0.9
+                            opacity: 0.7
 
 
                             Image{
@@ -182,7 +182,7 @@ ApplicationWindow {
 
                         Text {
                             id: contactInfo
-                            height: 16
+                            height: 10
                             font.pixelSize: 6
                             font.bold: true
                             anchors.horizontalCenter: parent.horizontalCenter
@@ -226,9 +226,6 @@ ApplicationWindow {
         anchors.bottom: view.bottom
         anchors.horizontalCenter: parent.horizontalCenter
     }
-
-
-
 }
 
 

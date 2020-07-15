@@ -11,7 +11,7 @@ public:
     enum ContactRole {
         NameRole = Qt::DisplayRole,
         NumberRole,
-        ImageRole//
+        ImageRole
     };
     Q_ENUM(ContactRole)
 
